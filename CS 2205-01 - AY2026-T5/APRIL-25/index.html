@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog - Home</title>
+
+    <style>
+        /* Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        /* Number Blocks */
+        .number-block {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            font-size: 40px;
+            font-weight: bold;
+            margin: 10px;
+            border-radius: 10px;
+            transition: 0.4s;
+        }
+
+        .number-block:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+
+        .one {
+            background: #ff6666;
+        }
+
+        .two {
+            background: #66ccff;
+        }
+
+        .three {
+            background: #99ff99;
+        }
+
+        .four {
+            background: #ffcc66;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        /* List Styling */
+        .continent {
+            color: darkblue;
+            font-size: 24px;
+        }
+
+        .country {
+            color: darkred;
+            font-weight: bold;
+        }
+
+        .city {
+            color: green;
+        }
+
+        .destination-section {
+            margin-top: 50px;
+            text-align: left;
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Travel Blog Homepage</h1>
+
+    <!-- Interactive Number Blocks -->
+
+    <a href="#europe">
+        <div class="number-block one">1</div>
+    </a>
+
+    <a href="#asia">
+        <div class="number-block two">2</div>
+    </a>
+
+    <a href="#america">
+        <div class="number-block three">3</div>
+    </a>
+
+    <a href="#africa">
+        <div class="number-block four">4</div>
+    </a>
+
+    <!-- Europe -->
+
+    <div class="destination-section" id="europe">
+        <h2 class="continent">Europe</h2>
+
+        <ol>
+            <li class="country">France
+                <ul>
+                    <li class="city">Paris</li>
+                    <li class="city">Lyon</li>
+                    <li class="city">Nice</li>
+                </ul>
+            </li>
+
+            <li class="country">Italy
+                <ul>
+                    <li class="city">Rome</li>
+                    <li class="city">Milan</li>
+                    <li class="city">Venice</li>
+                </ul>
+            </li>
+
+            <li class="country">Greece
+                <ul>
+                    <li class="city">Athens</li>
+                    <li class="city">Santorini</li>
+                    <li class="city">Mykonos</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <!-- Asia -->
+
+    <div class="destination-section" id="asia">
+        <h2 class="continent">Asia</h2>
+
+        <ol>
+            <li class="country">Japan
+                <ul>
+                    <li class="city">Tokyo</li>
+                    <li class="city">Kyoto</li>
+                    <li class="city">Osaka</li>
+                </ul>
+            </li>
+
+            <li class="country">China
+                <ul>
+                    <li class="city">Beijing</li>
+                    <li class="city">Shanghai</li>
+                    <li class="city">Xi'an</li>
+                </ul>
+            </li>
+
+            <li class="country">India
+                <ul>
+                    <li class="city">New Delhi</li>
+                    <li class="city">Mumbai</li>
+                    <li class="city">Jaipur</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <!-- America -->
+
+    <div class="destination-section" id="america">
+        <h2 class="continent">America</h2>
+
+        <ol>
+            <li class="country">USA
+                <ul>
+                    <li class="city">New York City</li>
+                    <li class="city">Los Angeles</li>
+                    <li class="city">Chicago</li>
+                </ul>
+            </li>
+
+            <li class="country">Brazil
+                <ul>
+                    <li class="city">Rio de Janeiro</li>
+                    <li class="city">São Paulo</li>
+                    <li class="city">Salvador</li>
+                </ul>
+            </li>
+
+            <li class="country">Canada
+                <ul>
+                    <li class="city">Toronto</li>
+                    <li class="city">Vancouver</li>
+                    <li class="city">Montreal</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <!-- Africa -->
+
+    <div class="destination-section" id="africa">
+        <h2 class="continent">Africa</h2>
+
+        <ol>
+            <li class="country">South Africa
+                <ul>
+                    <li class="city">Cape Town</li>
+                    <li class="city">Johannesburg</li>
+                    <li class="city">Durban</li>
+                </ul>
+            </li>
+
+            <li class="country">Egypt
+                <ul>
+                    <li class="city">Cairo</li>
+                    <li class="city">Luxor</li>
+                    <li class="city">Sharm El Sheikh</li>
+                </ul>
+            </li>
+
+            <li class="country">Morocco
+                <ul>
+                    <li class="city">Marrakech</li>
+                    <li class="city">Casablanca</li>
+                    <li class="city">Fez</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+</body>
+
+</html>

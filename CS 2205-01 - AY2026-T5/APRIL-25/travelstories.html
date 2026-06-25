@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Stories</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            text-align: center;
+        }
+
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: #333;
+            color: white;
+            padding: 15px;
+        }
+
+        td {
+            border: 2px solid #555;
+            padding: 15px;
+        }
+
+        tr:nth-child(even) {
+            background: #e6f7ff;
+        }
+
+        tr:nth-child(odd) {
+            background: #fff5e6;
+        }
+
+        img {
+            width: 250px;
+            border-radius: 10px;
+            transition: 0.5s;
+        }
+
+        img:hover {
+            opacity: 0.5;
+        }
+
+        .info-section {
+            margin-top: 80px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Travel Destinations</h1>
+
+    <table>
+
+        <tr>
+            <th>Destination</th>
+            <th>Attraction</th>
+        </tr>
+
+        <tr>
+            <td>Paris</td>
+            <td>
+                <a href="#eiffel">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg"
+                        alt="Eiffel Tower">
+                </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Rome</td>
+            <td>
+                <a href="#colosseum">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Colosseo_2020.jpg" alt="Colosseum">
+                </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>New York</td>
+            <td>
+                <a href="#liberty">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a1/Statue_of_Liberty_7.jpg"
+                        alt="Statue of Liberty">
+                </a>
+            </td>
+        </tr>
+
+    </table>
+
+    <div class="info-section">
+
+        <h2 id="eiffel">Eiffel Tower</h2>
+        <p>
+            The Eiffel Tower is the most famous landmark in Paris, France.
+            It was built in 1889 and attracts millions of tourists every year.
+        </p>
+
+        <h2 id="colosseum">Colosseum</h2>
+        <p>
+            The Colosseum is an ancient Roman amphitheater located in Rome, Italy.
+            It is one of the greatest architectural achievements of the Roman Empire.
+        </p>
+
+        <h2 id="liberty">Statue of Liberty</h2>
+        <p>
+            The Statue of Liberty is located in New York City, USA.
+            It symbolizes freedom and democracy.
+        </p>
+
+    </div>
+
+</body>
+
+</html>
